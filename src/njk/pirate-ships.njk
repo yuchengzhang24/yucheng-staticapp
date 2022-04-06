@@ -1,5 +1,9 @@
 {% extends '_templates/base.njk' %}
 
+{% block page_title %}Pirate Ships{% endblock %}
+
+{% block page_description %}List of Pirate Ships and their source.{% endblock %}
+
 {% block content %}
 <article class="container">
   <h1>Ships of the Golden Age of pirates</h1>
@@ -12,7 +16,7 @@
         <h5 class="card-title">{{ ship.ship_name }}</h5>
         <h6> {{ ship.captain }}</h6>
         <p class="card-text">{{ ship.blurb }}</p>
-        <a href="{{ ship.source }}" target="blank" class="text-info">Source</a>
+        <a href="{{ ship.source }}" target="blank" class="text-infogit">Source</a>
       </div>
     </div>
   </div>

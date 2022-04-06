@@ -11,6 +11,11 @@
       "name": "bookstores"
     },
     {
+      "fileId": "1PcfvDPp0vC55vOykh5s_fpyWw3ppjPXHbqXo4mNRJ2w",
+      "type": "doc",
+      "name": "blog"
+    },
+    {
       "fileId": "1G-aJA1H5C-B05Hlpx2RiojYcsNNXQ5ntvUEArRZ5O6w",
       "type": "sheet",
       "name": "pirates"
@@ -23,6 +28,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }
